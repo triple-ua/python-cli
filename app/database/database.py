@@ -87,5 +87,3 @@ class Database:
         with self.connection.cursor() as cursor:
             cursor.execute(query)
             self.connection.commit()
-
-        print("its worked")
