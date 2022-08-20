@@ -23,9 +23,13 @@ A command line app for money spends management
 ### 6. Install all requirements a project uses:
 `pip install -r requirements.txt`
 
-### 7. Configure a database settings in `./database/database.py`
+### 7. Configure a database settings in `./database/database.py`<br>
+You shouldn't choose a name of existing database. Script in step 8 is creating a new database with specified name
 
-### 8. Run a program:
+### 8. Initialize database and fill tables with data:
+`python app/database/config/db_init.py`
+
+### 9. Run a program:
 `python app/main.py`
 
 # About program
