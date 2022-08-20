@@ -1,6 +1,6 @@
 from mysql.connector import connect
 
-from database.settings import DB_HOST, DB_NAME, DB_PASSWORD, DB_USER
+from database.config.settings import DB_HOST, DB_NAME, DB_PASSWORD, DB_USER
 
 class Database:
     
